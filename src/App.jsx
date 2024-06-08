@@ -1,10 +1,10 @@
-
+import Home from './Pages/Home/Home'
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl text-spotifyGreen">Hello World</h1>
-    </>
+    <div className="w-screen h-screen px-2 py-2 overflow-hidden bg-spotifyBlack">
+      <Home />
+    </div>
   )
 }
 
