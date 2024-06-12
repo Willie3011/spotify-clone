@@ -3,7 +3,7 @@ import PlayList from '../../sections/PlayList/PlayList';
 function Home() {
   return (
     <div className="max-w-[1440] h-screen flex gap-1">
-        <div className="flex flex-col gap-2 w-[280px]">
+        <div className="flex flex-col gap-2 w-[350px]">
         <Logo />
         <PlayList/>
         </div>
