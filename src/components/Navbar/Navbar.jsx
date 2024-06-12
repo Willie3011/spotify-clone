@@ -2,7 +2,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <div className="h-[60px] w-full bg-[#101010] p-3 flex items-center justify-between">
+    <div className="h-[60px] w-[991px] rounded-t-lg bg-[#101010] p-3 flex items-center justify-between sticky top-0 z-10">
         <div className="flex items-center gap-2 text-sm">
             <button className="h-[25px] w-[25px] flex items-center justify-center rounded-full text-spotifyLightGray bg-spotifyBlack" disabled>
                 <FaChevronLeft/>
