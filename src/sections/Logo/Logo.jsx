@@ -3,7 +3,7 @@ import { FaSpotify } from "react-icons/fa6";
 
 function Logo() {
   return (
-    <div className="text-white p-5 bg-spotifyDarkGray rounded-lg col-span-1 h-fit">
+    <div className="text-white p-5 bg-spotifyDarkGray rounded-lg h-fit">
         <div className="flex items-center gap-1">
             <FaSpotify className="text-xl"/> <span className="font-semibold text-lg">Spotify</span>
         </div>
