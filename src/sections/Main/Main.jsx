@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar/Navbar"
 import Albums from "../Albums/Albums"
 import Artists from "../Artists/Artists"
 import Footer from "../Footer/Footer"
+import Playlists from "../Playlists/Playlists"
 
 function Main() {
   return (
@@ -10,6 +11,7 @@ function Main() {
       <div className="h-auto max-h-screen overflow-y-auto scrollbar-thin">
         <Artists />
         <Albums />
+        <Playlists/>
         <Footer/>
       </div>
     </div>
