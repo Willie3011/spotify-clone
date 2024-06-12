@@ -12,6 +12,22 @@ export default {
         spotifyDarkGray: '#121212',
         spotifyLightGray: '#B3B3B3',
       },
+      animation: {
+        fade: 'fadeIn 500ms ease-in',
+        fadeOut: 'fadeOut 500ms ease-out',
+      },
+
+      // that is actual animation
+      keyframes: theme => ({
+        fadeIn: {
+          '0%': { backgroundColor: theme('colors.transparent'), transform: "translate3d(0, 50%, 0)" },
+          '100%': { backgroundColor: theme('colors.spotifyGreen'), transform: "translate3d(0, 0, 0)" },
+        },
+        fadeOut: {
+          '100%': {opacity: 1, transform: "translate3d(0, 50%, 0)"},
+          '0%': {opacity: 0, transform: "translate3d(0, 0, 0)"}
+        }
+      }),
     },
   },
   plugins: [
